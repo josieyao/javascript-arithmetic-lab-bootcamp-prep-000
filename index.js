@@ -21,9 +21,12 @@ function subtract(a,b){
   return a - b;
 }
 
+/*it('multiply(a, b) multiplies two numbers and returns the result', function() {
+  expect(multiply(a, b)).toEqual(a * b)
+})*/
+
 function multiply(a,b){
-  var product = (a * b);
-  return product;
+  return a * b;
 }
 
 function divide(a,b){
