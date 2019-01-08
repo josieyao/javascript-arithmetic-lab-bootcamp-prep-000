@@ -38,9 +38,12 @@ function divide(a,b){
   return divided;
 }
 
-function inc(a){
-  var n = parseInt(a + 1);
-  return n; 
+/*it('inc(n) increments n and returns the result', function() {
+  expect(inc(a)).toEqual(a + 1)
+})*/
+
+function inc(n){
+  return a++
 }
 
 function dec(a){
