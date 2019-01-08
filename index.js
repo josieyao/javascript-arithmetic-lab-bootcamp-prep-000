@@ -43,7 +43,7 @@ function divide(a,b){
 })*/
 
 function inc(a){
-  return a++;
+  return a += 1;
 }
 
 /*it('dec(n) decrements n and returns the result', function() {
