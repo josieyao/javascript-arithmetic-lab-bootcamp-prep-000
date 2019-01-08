@@ -43,10 +43,12 @@ function divide(a,b){
 })*/
 
 function inc(a){
-  return a += 1;
+  return a++;
 }
 
-
+/*it('dec(n) decrements n and returns the result', function() {
+  expect(dec(a)).toEqual(a - 1)
+})*/
 
 function dec(a){
   var n = parseInt(a - 1);
