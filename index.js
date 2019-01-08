@@ -29,6 +29,10 @@ function multiply(a,b){
   return a * b;
 }
 
+/*it('divide(a, b) divides a by b and returns the result', function() {
+  expect(divide(a, b)).toEqual(a / b)
+})*/
+
 function divide(a,b){
   var divided = (a / b);
   return divided;
