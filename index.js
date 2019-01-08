@@ -46,6 +46,8 @@ function inc(a){
   return a += 1;
 }
 
+
+
 function dec(a){
   var n = parseInt(a - 1);
   return n;
