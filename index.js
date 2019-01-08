@@ -43,7 +43,7 @@ function divide(a,b){
 })*/
 
 function inc(a){
-  return n += 1;
+  return a += 1;
 }
 
 function dec(a){
