@@ -43,8 +43,8 @@ function divide(a,b){
 })*/
 
 function inc(a){
-  var n = parseInt(a + 1);
-  return n;
+  return n += 1;
+}
 
 function dec(a){
   var n = parseInt(a - 1);
