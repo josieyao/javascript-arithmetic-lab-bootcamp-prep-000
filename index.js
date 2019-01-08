@@ -69,8 +69,7 @@ function dec(a){
 })*/
 
 function makeInt(a){
-  var n = parseInt(a, 10);
-  return n;
+  return parseInt(a, 10);
 }
 
 /*describe('preserveDecimal(n)', function() {
