@@ -42,9 +42,9 @@ function divide(a,b){
   expect(inc(a)).toEqual(a + 1)
 })*/
 
-function inc(n){
-  return n++
-}
+function inc(a){
+  var n = parseInt(a + 1);
+  return n;
 
 function dec(a){
   var n = parseInt(a - 1);
