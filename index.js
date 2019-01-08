@@ -51,8 +51,7 @@ function inc(a){
 })*/
 
 function dec(a){
-  var n = parseInt(a - 1);
-  return n;
+  return a -= 1;
 }
 
 function makeInt(a){
