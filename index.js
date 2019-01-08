@@ -1,6 +1,19 @@
+/*var a, b
+
+beforeEach(function() {
+  a = Math.floor(Math.random() * 1000)
+  b = Math.floor(Math.random() * 1000)
+})
+
+it('add(a, b) adds two numbers and returns the result', function() {
+  expect(add(a, b)).toEqual(a + b)
+})*/
+
 function add(a, b){
   return a + b;
 }
+
+
 
 function subtract(a,b){
   var subtracted = (a - b);
