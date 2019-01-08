@@ -13,11 +13,12 @@ function add(a, b){
   return a + b;
 }
 
-
+/*it('subtract(a, b) subtracts b from a and returns the result', function() {
+  expect(subtract(a, b)).toEqual(a - b)
+})*/
 
 function subtract(a,b){
-  var subtracted = (a - b);
-  return subtracted;
+  return a - b;
 }
 
 function multiply(a,b){
