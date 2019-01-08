@@ -43,7 +43,7 @@ function divide(a,b){
 })*/
 
 function inc(n){
-  return a++
+  return n++
 }
 
 function dec(a){
